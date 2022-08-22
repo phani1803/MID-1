@@ -2,10 +2,10 @@
 
 void main()
 {
-    int n,remainder,temp,reverse;
+    int n,remainder,temp,reverse=0;
     printf("enter the number");
     scanf("%d",&n);
-    temp=0;
+    temp=n;
     while(n>0)
     {
         remainder=n%10;
